@@ -1,6 +1,6 @@
 # Crop and Pasting
-**Problem & Solution**: Data shifting problem causing imbalanced class distribution  
-**Task**: Recycling waste data augmentation  
+**Problem & Solution**: Data shifting problem causing unbalanced class distribution  
+**Task**: Recycling waste data crop and paste augmentation technique via Segment Anything Model (SAM)  
 **Object information**: Recycling waste objects on a conveyer belt  
 ### Crop and Paste condition
 
