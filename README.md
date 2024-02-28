@@ -17,9 +17,9 @@ Worked by [Hojun Song](https://github.com/hojunking)
 
 
 ### 1. Generate masks with SAM(Segment Anything Model)([Link](https://github.com/facebookresearch/segment-anything))
-- Get segmentation mask via object detection bounding box (already have labeled data)
-![mask1](./asset/image.png)
-![mask2](./asset/image-1.png)
+- Get segmentation mask via object detection bounding box (already have labeled data)  
+<img src="./asset/image.png" align="center" width="80%">
+<img src="./asset/image-1.png" align="center" width="80%">
 ### 2. Crop objects with generated masks
 - **Load Object Images with Cropped Masks**
 - **Apply Alpha Channel to Cropped Objects**
@@ -40,10 +40,10 @@ Worked by [Hojun Song](https://github.com/hojunking)
     ```
 - **Randomly Fewer Ratio Classes Pasting Algorithm**  
     Depends on number of class distribution, sampled more from fewer classes to solve unbalanced class distribution problem.  
-    ![imbalance_graph](./asset/imbalance_graph.png)
+    <img src="./asset/imbalance_graph.png" align="center" width="70%">
 
 ### Framework
-<img src="./asset/framework.png" align="center" width="70%">
+<img src="./asset/framework.png" align="center" width="60%">
 
 ### 4. Result Examples
 
