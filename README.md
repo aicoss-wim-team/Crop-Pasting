@@ -2,7 +2,7 @@
 **Problem & Solution**: Data shifting problem causing unbalanced class distribution  
 **Task**: Recycling waste data crop and paste augmentation technique via Segment Anything Model (SAM)  
 **Object information**: Recycling waste objects on a conveyer belt  
-### Crop and Paste condition
+### Crop and Paste Condition for Waste Domain
 
 1. **Background**
     1. objects must be pasted inside the conveyor belt area in an empty conveyor belt image.
@@ -40,14 +40,18 @@
 - **Randomly Fewer Ratio Classes Pasting Algorithm**  
     Depends on number of class distribution, sampled more from fewer classes to solve unbalanced class distribution problem.  
     ![imbalance_graph](./asset/imbalance_graph.png)
-- **Framework Figure**  
-    <img src="./asset/framework.png" align="center" width="66%"> 
-### 4. Results Examples
+
+### Framework
+<img src="./asset/framework.png" align="center" width="70%">
+
+### 4. Result Examples
 
 <p align="left">  
 <img src="./asset/ex1.png" align="center" width="49%"> <img src="./asset/ex2.png" align="center" width="49%">
 </p>
 <p align="left">  
 <img src="./asset/ex3.png" align="center" width="49%"> <img src="./asset/ex4.png" align="center" width="49%">
-</p>  
-
+</p>
+<br>
+<br>
+Worked by [Hojun Song](https://github.com/hojunking)
