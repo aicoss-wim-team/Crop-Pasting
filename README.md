@@ -2,7 +2,8 @@
 **Problem & Solution**: Data shifting problem causing unbalanced class distribution  
 **Task**: Recycling waste data crop and paste augmentation technique via Segment Anything Model (SAM)  
 **Object information**: Recycling waste objects on a conveyer belt  
-### Crop and Paste Condition for Waste Domain
+Worked by [Hojun Song](https://github.com/hojunking)
+### Crop and paste condition for waste domain
 
 1. **Background**
     1. objects must be pasted inside the conveyor belt area in an empty conveyor belt image.
@@ -52,6 +53,3 @@
 <p align="left">  
 <img src="./asset/ex3.png" align="center" width="49%"> <img src="./asset/ex4.png" align="center" width="49%">
 </p>
-<br>
-<br>
-Worked by [Hojun Song](https://github.com/hojunking)
