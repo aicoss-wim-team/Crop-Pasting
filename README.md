@@ -20,6 +20,8 @@ Worked by [Hojun Song](https://github.com/hojunking)
 - Get segmentation mask via object detection bounding box (already have labeled data)  
 <img src="./asset/image.png" align="center" width="80%">
 <img src="./asset/image-1.png" align="center" width="80%">
+
+
 ### 2. Crop objects with generated masks
 - **Load Object Images with Cropped Masks**
 - **Apply Alpha Channel to Cropped Objects**
