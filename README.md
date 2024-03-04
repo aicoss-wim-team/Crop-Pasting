@@ -25,8 +25,23 @@ Worked by [Hojun Song](https://github.com/hojunking)
 ### 2. Crop objects with generated masks
 - **Load Object Images with Cropped Masks**
 - **Apply Alpha Channel to Cropped Objects**
+        <p align="left">  
+    <img src="./asset/banana.png" align="center" width="10%"> 
+    <img src="./asset/coke.png" align="center" width="20%">
+    <img src="./asset/dobu.png" align="center" width="15%">
+    <img src="./asset/hetban.png" align="center" width="15%">
+    </p>
+    <p align="left">  
+    <img src="./asset/pet.png" align="center" width="10%"> 
+    <img src="./asset/soju.png" align="center" width="10%">
+    <img src="./asset/vynly.png" align="center" width="20%">
+    </p>
 
 ### 3. Paste objects on empty conveyer belt
+
+<img src="./asset/conveyer_resized.png" align="center" width="50%">  
+
+
 - **Configuration Parameters in ``crop_paste.py``**
     ```python
     CFG = {
